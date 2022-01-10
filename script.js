@@ -24,7 +24,7 @@ function generatePassword() {
   var numericChar = "0123456789"; 
   var lowercaseChar = "abcedfghijklmnopqrstuvwyxz";
   var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var 
+  
 
   // Character length prompt
   var charLength = prompt("How many characters would you like your password to contain?");
@@ -38,26 +38,45 @@ function generatePassword() {
       alert("Your password will be " + charLength + " characters.");
   }
 
-  // Lowercase confirm
+  // Lowercase confirm prompt
+  lowercaseChar = confirm("Do you want to include lowercase characters?");
 
+  // Lowercase confirm validation - Do i need this? 
+  if (lowercaseChar) {
+    alert("Your password will have lowercase characters.");
+  } 
 
+   // Uppercase confirm prompt
+   uppercaseChar = confirm("Do you want to include uppercase characters?");
 
+   // Uppercase confirm validation
+   if (uppercaseChar) {
+     alert("Your password will have uppercase characters.");
+   } 
 
+  //  Numeric numbers confirm prompt
+  numericChar = confirm("Do you want to include numeric characters?");
 
+  // Numeric numbers validation
+  if (numericChar) {
+    alert("Your password will have numeric characters.");
+  }
 
+  // Special characters confirm prompt
+  specialChar = confirm("Do you want to include special characters?");
 
+  if (specialChar) {
+    alert("Your password will have special characters.")
+  }
 
+  // For loop to get random characters and numbers based on charLength 
+    var getRandomLowercase = "";
 
-
-}
-
-
-
-
-
-
-
-
+    for (var i = 0; i < charLength; i++) {
+      getRandomLowercase += lowercaseChar[Math.floor(Math.random() * lowercaseChar.length)];
+    }
+   console.log(getRandomLowercase);
+  }
 
 
 // Add event listener to generate button
