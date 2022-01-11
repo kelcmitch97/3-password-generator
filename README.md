@@ -1,4 +1,8 @@
-# Password Generator Starter Code
+# Password Generator Challenge\
+
+Module 3: Javascript Challenge: Password Generator 
+
+# The Challenge
 
 Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
 
@@ -36,3 +40,16 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+## Mock-up:
+
+The following image demonstrates the application functionality:
+
+![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.](./Assets/03-javascript-homework-demo.png)
+
+# Deployment
+
+To view the project's repository in GitHub, click [here](https://github.com/kelcmitch97/3-password-generator).
+
+To view the deployed application with the GitHub pages link, click [here](https://kelcmitch97.github.io/3-password-generator/).
+
