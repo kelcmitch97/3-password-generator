@@ -1,4 +1,4 @@
-# Password Generator Challenge\
+# Password Generator Challenge
 
 Module 3: Javascript Challenge: Password Generator 
 
